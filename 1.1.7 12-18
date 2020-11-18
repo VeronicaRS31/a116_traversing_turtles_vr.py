@@ -21,13 +21,13 @@ for s in turtle_shapes:
 
  
 
-#  
+#  this tells it where to start drawing
 startx = 0
 starty = 0
 direction= -45
 length=50
 
-#
+# this makes each turtle do sequence of commands. So it moves out some distance,turns, goes forward, and stops.
 for t in my_turtles:
   t.goto(startx, starty)
   t.pendown()
@@ -37,7 +37,7 @@ for t in my_turtles:
 
 
 
-#	
+#	This changes how the other turtle starts
   startx = t.xcor()
   starty = t.ycor()
   direction= direction+45
