@@ -21,7 +21,7 @@ for s in turtle_shapes:
 
  
 
-#  this tells it where to start drawing
+#this tells it where to start drawing
 startx = 0
 starty = 0
 direction= -45
